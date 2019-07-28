@@ -1,0 +1,27 @@
+//
+//  Private.pch
+//  BaseProject
+//
+//  Created by 范庆忠 on 2019/7/28.
+//  Copyright © 2019 qingzhou. All rights reserved.
+//
+
+#ifndef Private_pch
+#define Private_pch
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#pragma mark - 私人e配置
+#import "PriConfig.h"
+#import "Pri_Category.h"
+#import "Pri_Tool.h"
+
+#pragma mark - 第三方类
+#import "UIColor+UIColor_hexString.h"
+
+#endif
+
+#endif /* Private_pch */

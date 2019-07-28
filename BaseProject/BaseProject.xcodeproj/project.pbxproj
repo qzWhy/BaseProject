@@ -13,6 +13,20 @@
 		1BFF6CFD22ED2365004AACCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BFF6CFC22ED2365004AACCE /* Assets.xcassets */; };
 		1BFF6D0022ED2365004AACCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BFF6CFE22ED2365004AACCE /* LaunchScreen.storyboard */; };
 		1BFF6D0322ED2365004AACCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF6D0222ED2365004AACCE /* main.m */; };
+		1BFF6D1522ED274E004AACCE /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF6D1422ED274E004AACCE /* BaseViewController.m */; };
+		1BFF6D1922ED29BF004AACCE /* Pri_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF6D1822ED29BF004AACCE /* Pri_Category.m */; };
+		1BFF6D1D22ED2CDF004AACCE /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF6D1C22ED2CDF004AACCE /* BaseNavigationController.m */; };
+		1BFF6D2022ED2D32004AACCE /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF6D1F22ED2D32004AACCE /* BaseTabBarController.m */; };
+		1BFF6D3222ED323D004AACCE /* IndexPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF6D3022ED323D004AACCE /* IndexPageVC.m */; };
+		1BFF6D3322ED323D004AACCE /* IndexPageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BFF6D3122ED323D004AACCE /* IndexPageVC.xib */; };
+		1BFF6D3722ED3254004AACCE /* MessageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF6D3522ED3254004AACCE /* MessageVC.m */; };
+		1BFF6D3822ED3254004AACCE /* MessageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BFF6D3622ED3254004AACCE /* MessageVC.xib */; };
+		1BFF6D3C22ED3269004AACCE /* FindVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF6D3A22ED3269004AACCE /* FindVC.m */; };
+		1BFF6D3D22ED3269004AACCE /* FindVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BFF6D3B22ED3269004AACCE /* FindVC.xib */; };
+		1BFF6D4122ED327B004AACCE /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF6D3F22ED327B004AACCE /* MineVC.m */; };
+		1BFF6D4222ED327B004AACCE /* MineVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BFF6D4022ED327B004AACCE /* MineVC.xib */; };
+		1BFF6D5A22ED3D2D004AACCE /* UIColor+UIColor_hexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF6D5822ED3D2D004AACCE /* UIColor+UIColor_hexString.m */; };
+		1BFF6D5D22ED3F26004AACCE /* Pri_Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF6D5C22ED3F26004AACCE /* Pri_Tool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +40,32 @@
 		1BFF6CFF22ED2365004AACCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BFF6D0122ED2365004AACCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BFF6D0222ED2365004AACCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BFF6D1322ED274E004AACCE /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		1BFF6D1422ED274E004AACCE /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		1BFF6D1722ED29BF004AACCE /* Pri_Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pri_Category.h; sourceTree = "<group>"; };
+		1BFF6D1822ED29BF004AACCE /* Pri_Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pri_Category.m; sourceTree = "<group>"; };
+		1BFF6D1A22ED29F9004AACCE /* Private.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Private.pch; sourceTree = "<group>"; };
+		1BFF6D1B22ED2CDF004AACCE /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		1BFF6D1C22ED2CDF004AACCE /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		1BFF6D1E22ED2D32004AACCE /* BaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		1BFF6D1F22ED2D32004AACCE /* BaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		1BFF6D2122ED2F89004AACCE /* PriConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriConfig.h; sourceTree = "<group>"; };
+		1BFF6D2F22ED323D004AACCE /* IndexPageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexPageVC.h; sourceTree = "<group>"; };
+		1BFF6D3022ED323D004AACCE /* IndexPageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexPageVC.m; sourceTree = "<group>"; };
+		1BFF6D3122ED323D004AACCE /* IndexPageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IndexPageVC.xib; sourceTree = "<group>"; };
+		1BFF6D3422ED3254004AACCE /* MessageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageVC.h; sourceTree = "<group>"; };
+		1BFF6D3522ED3254004AACCE /* MessageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageVC.m; sourceTree = "<group>"; };
+		1BFF6D3622ED3254004AACCE /* MessageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageVC.xib; sourceTree = "<group>"; };
+		1BFF6D3922ED3269004AACCE /* FindVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindVC.h; sourceTree = "<group>"; };
+		1BFF6D3A22ED3269004AACCE /* FindVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindVC.m; sourceTree = "<group>"; };
+		1BFF6D3B22ED3269004AACCE /* FindVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FindVC.xib; sourceTree = "<group>"; };
+		1BFF6D3E22ED327B004AACCE /* MineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
+		1BFF6D3F22ED327B004AACCE /* MineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
+		1BFF6D4022ED327B004AACCE /* MineVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineVC.xib; sourceTree = "<group>"; };
+		1BFF6D5822ED3D2D004AACCE /* UIColor+UIColor_hexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+UIColor_hexString.m"; sourceTree = "<group>"; };
+		1BFF6D5922ED3D2D004AACCE /* UIColor+UIColor_hexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+UIColor_hexString.h"; sourceTree = "<group>"; };
+		1BFF6D5B22ED3F26004AACCE /* Pri_Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pri_Tool.h; sourceTree = "<group>"; };
+		1BFF6D5C22ED3F26004AACCE /* Pri_Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pri_Tool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +119,10 @@
 		1BFF6D0A22ED2500004AACCE /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				1BFF6D0F22ED26E1004AACCE /* Base */,
+				1BFF6D1222ED270B004AACCE /* Controller */,
+				1BFF6D1122ED2703004AACCE /* View */,
+				1BFF6D1022ED26F9004AACCE /* Model */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -86,6 +130,8 @@
 		1BFF6D0C22ED2521004AACCE /* Utile */ = {
 			isa = PBXGroup;
 			children = (
+				1BFF6D5722ED3B5B004AACCE /* 3rdLib */,
+				1BFF6D1622ED2915004AACCE /* PrivateLib */,
 			);
 			path = Utile;
 			sourceTree = "<group>";
@@ -109,6 +155,178 @@
 				1BFF6CFE22ED2365004AACCE /* LaunchScreen.storyboard */,
 			);
 			path = System;
+			sourceTree = "<group>";
+		};
+		1BFF6D0F22ED26E1004AACCE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1BFF6D1322ED274E004AACCE /* BaseViewController.h */,
+				1BFF6D1422ED274E004AACCE /* BaseViewController.m */,
+				1BFF6D1B22ED2CDF004AACCE /* BaseNavigationController.h */,
+				1BFF6D1C22ED2CDF004AACCE /* BaseNavigationController.m */,
+				1BFF6D1E22ED2D32004AACCE /* BaseTabBarController.h */,
+				1BFF6D1F22ED2D32004AACCE /* BaseTabBarController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1BFF6D1022ED26F9004AACCE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1BFF6D1122ED2703004AACCE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BFF6D1222ED270B004AACCE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1BFF6D2222ED2FFF004AACCE /* Base */,
+				1BFF6D2322ED300E004AACCE /* Login */,
+				1BFF6D2422ED3135004AACCE /* IndexPage */,
+				1BFF6D2522ED314A004AACCE /* Message */,
+				1BFF6D2622ED3157004AACCE /* Find */,
+				1BFF6D2722ED315F004AACCE /* Mine */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1BFF6D1622ED2915004AACCE /* PrivateLib */ = {
+			isa = PBXGroup;
+			children = (
+				1BFF6D1A22ED29F9004AACCE /* Private.pch */,
+				1BFF6D2122ED2F89004AACCE /* PriConfig.h */,
+				1BFF6D1722ED29BF004AACCE /* Pri_Category.h */,
+				1BFF6D1822ED29BF004AACCE /* Pri_Category.m */,
+				1BFF6D5B22ED3F26004AACCE /* Pri_Tool.h */,
+				1BFF6D5C22ED3F26004AACCE /* Pri_Tool.m */,
+			);
+			path = PrivateLib;
+			sourceTree = "<group>";
+		};
+		1BFF6D2222ED2FFF004AACCE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1BFF6D2322ED300E004AACCE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1BFF6D2A22ED31D2004AACCE /* Controller */,
+				1BFF6D2922ED31CC004AACCE /* View */,
+				1BFF6D2822ED31C6004AACCE /* Model */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1BFF6D2422ED3135004AACCE /* IndexPage */ = {
+			isa = PBXGroup;
+			children = (
+				1BFF6D2B22ED31DD004AACCE /* Controller */,
+			);
+			path = IndexPage;
+			sourceTree = "<group>";
+		};
+		1BFF6D2522ED314A004AACCE /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				1BFF6D2C22ED31E4004AACCE /* controller */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		1BFF6D2622ED3157004AACCE /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				1BFF6D2D22ED31ED004AACCE /* Controller */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		1BFF6D2722ED315F004AACCE /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				1BFF6D2E22ED31F5004AACCE /* Controller */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		1BFF6D2822ED31C6004AACCE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1BFF6D2922ED31CC004AACCE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BFF6D2A22ED31D2004AACCE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1BFF6D2B22ED31DD004AACCE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1BFF6D2F22ED323D004AACCE /* IndexPageVC.h */,
+				1BFF6D3022ED323D004AACCE /* IndexPageVC.m */,
+				1BFF6D3122ED323D004AACCE /* IndexPageVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1BFF6D2C22ED31E4004AACCE /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				1BFF6D3422ED3254004AACCE /* MessageVC.h */,
+				1BFF6D3522ED3254004AACCE /* MessageVC.m */,
+				1BFF6D3622ED3254004AACCE /* MessageVC.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		1BFF6D2D22ED31ED004AACCE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1BFF6D3922ED3269004AACCE /* FindVC.h */,
+				1BFF6D3A22ED3269004AACCE /* FindVC.m */,
+				1BFF6D3B22ED3269004AACCE /* FindVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1BFF6D2E22ED31F5004AACCE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1BFF6D3E22ED327B004AACCE /* MineVC.h */,
+				1BFF6D3F22ED327B004AACCE /* MineVC.m */,
+				1BFF6D4022ED327B004AACCE /* MineVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1BFF6D5722ED3B5B004AACCE /* 3rdLib */ = {
+			isa = PBXGroup;
+			children = (
+				1BFF6D5922ED3D2D004AACCE /* UIColor+UIColor_hexString.h */,
+				1BFF6D5822ED3D2D004AACCE /* UIColor+UIColor_hexString.m */,
+			);
+			path = 3rdLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,8 +386,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BFF6D3822ED3254004AACCE /* MessageVC.xib in Resources */,
+				1BFF6D3D22ED3269004AACCE /* FindVC.xib in Resources */,
 				1BFF6D0022ED2365004AACCE /* LaunchScreen.storyboard in Resources */,
+				1BFF6D4222ED327B004AACCE /* MineVC.xib in Resources */,
 				1BFF6CFD22ED2365004AACCE /* Assets.xcassets in Resources */,
+				1BFF6D3322ED323D004AACCE /* IndexPageVC.xib in Resources */,
 				1BFF6CFB22ED2364004AACCE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,8 +404,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BFF6CF822ED2364004AACCE /* ViewController.m in Sources */,
+				1BFF6D2022ED2D32004AACCE /* BaseTabBarController.m in Sources */,
+				1BFF6D1522ED274E004AACCE /* BaseViewController.m in Sources */,
+				1BFF6D3C22ED3269004AACCE /* FindVC.m in Sources */,
+				1BFF6D1D22ED2CDF004AACCE /* BaseNavigationController.m in Sources */,
+				1BFF6D1922ED29BF004AACCE /* Pri_Category.m in Sources */,
+				1BFF6D5A22ED3D2D004AACCE /* UIColor+UIColor_hexString.m in Sources */,
 				1BFF6D0322ED2365004AACCE /* main.m in Sources */,
+				1BFF6D5D22ED3F26004AACCE /* Pri_Tool.m in Sources */,
+				1BFF6D4122ED327B004AACCE /* MineVC.m in Sources */,
+				1BFF6D3222ED323D004AACCE /* IndexPageVC.m in Sources */,
 				1BFF6CF522ED2364004AACCE /* AppDelegate.m in Sources */,
+				1BFF6D3722ED3254004AACCE /* MessageVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +559,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S4APB779M6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BaseProject/Utile/PrivateLib/Private.pch;
 				INFOPLIST_FILE = BaseProject/System/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -344,6 +578,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S4APB779M6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BaseProject/Utile/PrivateLib/Private.pch;
 				INFOPLIST_FILE = BaseProject/System/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
