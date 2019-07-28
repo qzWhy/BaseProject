@@ -30,12 +30,16 @@
 @implementation UINavigationBar (PCategory)
 
 + (void)configNavigationBar {
-    UIColor *navigationColor = [UIColor grayColor];
-    
+    /** 两个设置导航栏背景颜色的方式 一、图片渲染 二、直接设置bartintcolor */
+    //一、
+    UIColor *navigationColor = [UIColor redColor];
     [[UINavigationBar appearance] setBackgroundImage:[[UIColor createImageWithColor:navigationColor] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] forBarMetrics:UIBarMetricsDefault];
     [[UINavigationBar appearance] setShadowImage:[UIImage new]];
+    //二、
+    [[UINavigationBar appearance] setBarTintColor:[UIColor greenColor]];//设置导航栏背景的颜色
     
-    [[UINavigationBar appearance] setTintColor:[UIColor darkGrayColor]];
+//    [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:34/255.0 green:34/255.0 blue:34/255.0 alpha:1.0]];
+    //设置导航栏title的字体及颜色i
     [[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor darkGrayColor],NSForegroundColorAttributeName, [UIFont systemFontOfSize:18],NSFontAttributeName , nil]];
 }
 
