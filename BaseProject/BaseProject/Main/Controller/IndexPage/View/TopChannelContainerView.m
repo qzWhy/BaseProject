@@ -80,6 +80,10 @@ static CGFloat buttonWidth = 65;
     }
 }
 
+- (void)selecteChannelButtonWithIndex:(NSInteger)index {
+    [self clickChannelButton:self.scrollView.subviews[index]];
+}
+
 #pragma mark - 懒加载
 - (UIScrollView *)scrollView {
     if (!_scrollView) {

@@ -30,6 +30,7 @@
 		1BFF6D6022ED5057004AACCE /* secondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF6D5F22ED5057004AACCE /* secondVC.m */; };
 		1BFF6D6422ED66D0004AACCE /* TopChannelContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF6D6322ED66D0004AACCE /* TopChannelContainerView.m */; };
 		1BFF6D6722EDB8D5004AACCE /* ContentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF6D6622EDB8D5004AACCE /* ContentTableViewController.m */; };
+		1BFF6D6922EDDC32004AACCE /* NewsURLs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BFF6D6822EDDC32004AACCE /* NewsURLs.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		1BFF6D6322ED66D0004AACCE /* TopChannelContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopChannelContainerView.m; sourceTree = "<group>"; };
 		1BFF6D6522EDB8D5004AACCE /* ContentTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentTableViewController.h; sourceTree = "<group>"; };
 		1BFF6D6622EDB8D5004AACCE /* ContentTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentTableViewController.m; sourceTree = "<group>"; };
+		1BFF6D6822EDDC32004AACCE /* NewsURLs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NewsURLs.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 		1BFF6D0D22ED2537004AACCE /* Recourse */ = {
 			isa = PBXGroup;
 			children = (
+				1BFF6D6822EDDC32004AACCE /* NewsURLs.plist */,
 				1BFF6CFC22ED2365004AACCE /* Assets.xcassets */,
 			);
 			path = Recourse;
@@ -412,6 +415,7 @@
 				1BFF6D3822ED3254004AACCE /* MessageVC.xib in Resources */,
 				1BFF6D3D22ED3269004AACCE /* FindVC.xib in Resources */,
 				1BFF6D0022ED2365004AACCE /* LaunchScreen.storyboard in Resources */,
+				1BFF6D6922EDDC32004AACCE /* NewsURLs.plist in Resources */,
 				1BFF6D4222ED327B004AACCE /* MineVC.xib in Resources */,
 				1BFF6CFD22ED2365004AACCE /* Assets.xcassets in Resources */,
 				1BFF6D3322ED323D004AACCE /* IndexPageVC.xib in Resources */,
