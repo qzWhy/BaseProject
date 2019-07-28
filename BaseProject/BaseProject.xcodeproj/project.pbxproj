@@ -58,8 +58,7 @@
 		1BFF6CF222ED2364004AACCE /* BaseProject */ = {
 			isa = PBXGroup;
 			children = (
-				1BFF6CF322ED2364004AACCE /* AppDelegate.h */,
-				1BFF6CF422ED2364004AACCE /* AppDelegate.m */,
+				1BFF6D0922ED2480004AACCE /* AppDelegate */,
 				1BFF6CF622ED2364004AACCE /* ViewController.h */,
 				1BFF6CF722ED2364004AACCE /* ViewController.m */,
 				1BFF6CF922ED2364004AACCE /* Main.storyboard */,
@@ -69,6 +68,15 @@
 				1BFF6D0222ED2365004AACCE /* main.m */,
 			);
 			path = BaseProject;
+			sourceTree = "<group>";
+		};
+		1BFF6D0922ED2480004AACCE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1BFF6CF322ED2364004AACCE /* AppDelegate.h */,
+				1BFF6CF422ED2364004AACCE /* AppDelegate.m */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
