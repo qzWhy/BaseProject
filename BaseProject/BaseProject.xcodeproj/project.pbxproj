@@ -59,11 +59,11 @@
 			isa = PBXGroup;
 			children = (
 				1BFF6D0922ED2480004AACCE /* AppDelegate */,
-				1BFF6CF622ED2364004AACCE /* ViewController.h */,
-				1BFF6CF722ED2364004AACCE /* ViewController.m */,
-				1BFF6CF922ED2364004AACCE /* Main.storyboard */,
+				1BFF6D0A22ED2500004AACCE /* Main */,
+				1BFF6D0C22ED2521004AACCE /* Utile */,
+				1BFF6D0D22ED2537004AACCE /* Recourse */,
+				1BFF6D0E22ED2553004AACCE /* System */,
 				1BFF6CFC22ED2365004AACCE /* Assets.xcassets */,
-				1BFF6CFE22ED2365004AACCE /* LaunchScreen.storyboard */,
 				1BFF6D0122ED2365004AACCE /* Info.plist */,
 				1BFF6D0222ED2365004AACCE /* main.m */,
 			);
@@ -77,6 +77,38 @@
 				1BFF6CF422ED2364004AACCE /* AppDelegate.m */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		1BFF6D0A22ED2500004AACCE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1BFF6D0C22ED2521004AACCE /* Utile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utile;
+			sourceTree = "<group>";
+		};
+		1BFF6D0D22ED2537004AACCE /* Recourse */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Recourse;
+			sourceTree = "<group>";
+		};
+		1BFF6D0E22ED2553004AACCE /* System */ = {
+			isa = PBXGroup;
+			children = (
+				1BFF6CF622ED2364004AACCE /* ViewController.h */,
+				1BFF6CF722ED2364004AACCE /* ViewController.m */,
+				1BFF6CF922ED2364004AACCE /* Main.storyboard */,
+				1BFF6CFE22ED2365004AACCE /* LaunchScreen.storyboard */,
+			);
+			path = System;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
