@@ -32,6 +32,24 @@
 		1BFF6D6722EDB8D5004AACCE /* ContentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF6D6622EDB8D5004AACCE /* ContentTableViewController.m */; };
 		1BFF6D6922EDDC32004AACCE /* NewsURLs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BFF6D6822EDDC32004AACCE /* NewsURLs.plist */; };
 		A140F26722EE924300395F19 /* QZCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A140F26522EE924300395F19 /* QZCycleScrollView.m */; };
+		A140F26A22EE97CC00395F19 /* ReadBookVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A140F26822EE97CC00395F19 /* ReadBookVC.m */; };
+		A140F27D22EE97E300395F19 /* wobushinideyuanjia.txt in Resources */ = {isa = PBXBuildFile; fileRef = A140F26C22EE97E300395F19 /* wobushinideyuanjia.txt */; };
+		A140F27E22EE97E300395F19 /* tangyi.txt in Resources */ = {isa = PBXBuildFile; fileRef = A140F26D22EE97E300395F19 /* tangyi.txt */; };
+		A140F27F22EE97E300395F19 /* zuoer.txt in Resources */ = {isa = PBXBuildFile; fileRef = A140F26E22EE97E300395F19 /* zuoer.txt */; };
+		A140F28022EE97E300395F19 /* shalou.txt in Resources */ = {isa = PBXBuildFile; fileRef = A140F26F22EE97E300395F19 /* shalou.txt */; };
+		A140F28122EE97E300395F19 /* xiaoyaodejinsechengbao.txt in Resources */ = {isa = PBXBuildFile; fileRef = A140F27022EE97E300395F19 /* xiaoyaodejinsechengbao.txt */; };
+		A140F28222EE97E300395F19 /* liaiyigeIDdejuli.txt in Resources */ = {isa = PBXBuildFile; fileRef = A140F27122EE97E300395F19 /* liaiyigeIDdejuli.txt */; };
+		A140F28322EE97E300395F19 /* dangnigudannihuixiangqishui.txt in Resources */ = {isa = PBXBuildFile; fileRef = A140F27222EE97E300395F19 /* dangnigudannihuixiangqishui.txt */; };
+		A140F28422EE97E300395F19 /* tiaopin.txt in Resources */ = {isa = PBXBuildFile; fileRef = A140F27322EE97E300395F19 /* tiaopin.txt */; };
+		A140F28522EE97E300395F19 /* woyaowomenzaiyiqi.txt in Resources */ = {isa = PBXBuildFile; fileRef = A140F27422EE97E300395F19 /* woyaowomenzaiyiqi.txt */; };
+		A140F28622EE97E300395F19 /* hudielaiguozheshijie.txt in Resources */ = {isa = PBXBuildFile; fileRef = A140F27522EE97E300395F19 /* hudielaiguozheshijie.txt */; };
+		A140F28722EE97E300395F19 /* xiaofudequnbai.txt in Resources */ = {isa = PBXBuildFile; fileRef = A140F27622EE97E300395F19 /* xiaofudequnbai.txt */; };
+		A140F28822EE97E300395F19 /* anshizhangda.txt in Resources */ = {isa = PBXBuildFile; fileRef = A140F27722EE97E300395F19 /* anshizhangda.txt */; };
+		A140F28922EE97E300395F19 /* zuoerzhongjie.txt in Resources */ = {isa = PBXBuildFile; fileRef = A140F27822EE97E300395F19 /* zuoerzhongjie.txt */; };
+		A140F28A22EE97E300395F19 /* aizaixianjingderizi.txt in Resources */ = {isa = PBXBuildFile; fileRef = A140F27922EE97E300395F19 /* aizaixianjingderizi.txt */; };
+		A140F28B22EE97E300395F19 /* bubizhidaowoshishui.txt in Resources */ = {isa = PBXBuildFile; fileRef = A140F27A22EE97E300395F19 /* bubizhidaowoshishui.txt */; };
+		A140F28C22EE97E300395F19 /* shinian.txt in Resources */ = {isa = PBXBuildFile; fileRef = A140F27B22EE97E300395F19 /* shinian.txt */; };
+		A140F28D22EE97E300395F19 /* zuishuxidemoshengren.txt in Resources */ = {isa = PBXBuildFile; fileRef = A140F27C22EE97E300395F19 /* zuishuxidemoshengren.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +98,25 @@
 		1BFF6D6822EDDC32004AACCE /* NewsURLs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NewsURLs.plist; sourceTree = "<group>"; };
 		A140F26522EE924300395F19 /* QZCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZCycleScrollView.m; sourceTree = "<group>"; };
 		A140F26622EE924300395F19 /* QZCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZCycleScrollView.h; sourceTree = "<group>"; };
+		A140F26822EE97CC00395F19 /* ReadBookVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadBookVC.m; sourceTree = "<group>"; };
+		A140F26922EE97CC00395F19 /* ReadBookVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadBookVC.h; sourceTree = "<group>"; };
+		A140F26C22EE97E300395F19 /* wobushinideyuanjia.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wobushinideyuanjia.txt; sourceTree = "<group>"; };
+		A140F26D22EE97E300395F19 /* tangyi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tangyi.txt; sourceTree = "<group>"; };
+		A140F26E22EE97E300395F19 /* zuoer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zuoer.txt; sourceTree = "<group>"; };
+		A140F26F22EE97E300395F19 /* shalou.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shalou.txt; sourceTree = "<group>"; };
+		A140F27022EE97E300395F19 /* xiaoyaodejinsechengbao.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = xiaoyaodejinsechengbao.txt; sourceTree = "<group>"; };
+		A140F27122EE97E300395F19 /* liaiyigeIDdejuli.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = liaiyigeIDdejuli.txt; sourceTree = "<group>"; };
+		A140F27222EE97E300395F19 /* dangnigudannihuixiangqishui.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dangnigudannihuixiangqishui.txt; sourceTree = "<group>"; };
+		A140F27322EE97E300395F19 /* tiaopin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tiaopin.txt; sourceTree = "<group>"; };
+		A140F27422EE97E300395F19 /* woyaowomenzaiyiqi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = woyaowomenzaiyiqi.txt; sourceTree = "<group>"; };
+		A140F27522EE97E300395F19 /* hudielaiguozheshijie.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hudielaiguozheshijie.txt; sourceTree = "<group>"; };
+		A140F27622EE97E300395F19 /* xiaofudequnbai.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = xiaofudequnbai.txt; sourceTree = "<group>"; };
+		A140F27722EE97E300395F19 /* anshizhangda.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = anshizhangda.txt; sourceTree = "<group>"; };
+		A140F27822EE97E300395F19 /* zuoerzhongjie.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zuoerzhongjie.txt; sourceTree = "<group>"; };
+		A140F27922EE97E300395F19 /* aizaixianjingderizi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aizaixianjingderizi.txt; sourceTree = "<group>"; };
+		A140F27A22EE97E300395F19 /* bubizhidaowoshishui.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bubizhidaowoshishui.txt; sourceTree = "<group>"; };
+		A140F27B22EE97E300395F19 /* shinian.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shinian.txt; sourceTree = "<group>"; };
+		A140F27C22EE97E300395F19 /* zuishuxidemoshengren.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zuishuxidemoshengren.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +191,7 @@
 		1BFF6D0D22ED2537004AACCE /* Recourse */ = {
 			isa = PBXGroup;
 			children = (
+				A140F26B22EE97E300395F19 /* 小说 */,
 				1BFF6D6822EDDC32004AACCE /* NewsURLs.plist */,
 				1BFF6CFC22ED2365004AACCE /* Assets.xcassets */,
 			);
@@ -362,10 +400,36 @@
 		A140F26422EE921500395F19 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				A140F26922EE97CC00395F19 /* ReadBookVC.h */,
+				A140F26822EE97CC00395F19 /* ReadBookVC.m */,
 				A140F26622EE924300395F19 /* QZCycleScrollView.h */,
 				A140F26522EE924300395F19 /* QZCycleScrollView.m */,
 			);
 			path = Class;
+			sourceTree = "<group>";
+		};
+		A140F26B22EE97E300395F19 /* 小说 */ = {
+			isa = PBXGroup;
+			children = (
+				A140F26C22EE97E300395F19 /* wobushinideyuanjia.txt */,
+				A140F26D22EE97E300395F19 /* tangyi.txt */,
+				A140F26E22EE97E300395F19 /* zuoer.txt */,
+				A140F26F22EE97E300395F19 /* shalou.txt */,
+				A140F27022EE97E300395F19 /* xiaoyaodejinsechengbao.txt */,
+				A140F27122EE97E300395F19 /* liaiyigeIDdejuli.txt */,
+				A140F27222EE97E300395F19 /* dangnigudannihuixiangqishui.txt */,
+				A140F27322EE97E300395F19 /* tiaopin.txt */,
+				A140F27422EE97E300395F19 /* woyaowomenzaiyiqi.txt */,
+				A140F27522EE97E300395F19 /* hudielaiguozheshijie.txt */,
+				A140F27622EE97E300395F19 /* xiaofudequnbai.txt */,
+				A140F27722EE97E300395F19 /* anshizhangda.txt */,
+				A140F27822EE97E300395F19 /* zuoerzhongjie.txt */,
+				A140F27922EE97E300395F19 /* aizaixianjingderizi.txt */,
+				A140F27A22EE97E300395F19 /* bubizhidaowoshishui.txt */,
+				A140F27B22EE97E300395F19 /* shinian.txt */,
+				A140F27C22EE97E300395F19 /* zuishuxidemoshengren.txt */,
+			);
+			path = "小说";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -425,14 +489,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A140F28922EE97E300395F19 /* zuoerzhongjie.txt in Resources */,
+				A140F28122EE97E300395F19 /* xiaoyaodejinsechengbao.txt in Resources */,
+				A140F28022EE97E300395F19 /* shalou.txt in Resources */,
+				A140F28822EE97E300395F19 /* anshizhangda.txt in Resources */,
 				1BFF6D3822ED3254004AACCE /* MessageVC.xib in Resources */,
+				A140F28622EE97E300395F19 /* hudielaiguozheshijie.txt in Resources */,
+				A140F28322EE97E300395F19 /* dangnigudannihuixiangqishui.txt in Resources */,
 				1BFF6D3D22ED3269004AACCE /* FindVC.xib in Resources */,
 				1BFF6D0022ED2365004AACCE /* LaunchScreen.storyboard in Resources */,
 				1BFF6D6922EDDC32004AACCE /* NewsURLs.plist in Resources */,
+				A140F28522EE97E300395F19 /* woyaowomenzaiyiqi.txt in Resources */,
+				A140F27E22EE97E300395F19 /* tangyi.txt in Resources */,
+				A140F28A22EE97E300395F19 /* aizaixianjingderizi.txt in Resources */,
+				A140F28222EE97E300395F19 /* liaiyigeIDdejuli.txt in Resources */,
+				A140F27F22EE97E300395F19 /* zuoer.txt in Resources */,
 				1BFF6D4222ED327B004AACCE /* MineVC.xib in Resources */,
+				A140F28D22EE97E300395F19 /* zuishuxidemoshengren.txt in Resources */,
 				1BFF6CFD22ED2365004AACCE /* Assets.xcassets in Resources */,
 				1BFF6D3322ED323D004AACCE /* IndexPageVC.xib in Resources */,
+				A140F28422EE97E300395F19 /* tiaopin.txt in Resources */,
+				A140F28C22EE97E300395F19 /* shinian.txt in Resources */,
+				A140F27D22EE97E300395F19 /* wobushinideyuanjia.txt in Resources */,
 				1BFF6CFB22ED2364004AACCE /* Main.storyboard in Resources */,
+				A140F28722EE97E300395F19 /* xiaofudequnbai.txt in Resources */,
+				A140F28B22EE97E300395F19 /* bubizhidaowoshishui.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +533,7 @@
 				1BFF6D1922ED29BF004AACCE /* Pri_Category.m in Sources */,
 				1BFF6D5A22ED3D2D004AACCE /* UIColor+UIColor_hexString.m in Sources */,
 				1BFF6D0322ED2365004AACCE /* main.m in Sources */,
+				A140F26A22EE97CC00395F19 /* ReadBookVC.m in Sources */,
 				1BFF6D6722EDB8D5004AACCE /* ContentTableViewController.m in Sources */,
 				1BFF6D6422ED66D0004AACCE /* TopChannelContainerView.m in Sources */,
 				A140F26722EE924300395F19 /* QZCycleScrollView.m in Sources */,

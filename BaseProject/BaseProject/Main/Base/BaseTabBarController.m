@@ -16,7 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     [self addViewControllerAction];///还未设置 根据项目设置
 }
 

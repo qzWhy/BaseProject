@@ -5,6 +5,9 @@
 //  Created by fanqingzhong on 2019/7/27.
 //  Copyright © 2019 fanqingzhong. All rights reserved.
 //
+/**
+ 轮播图的简单实现，后续会持续更新
+ */
 
 #import <UIKit/UIKit.h>
 

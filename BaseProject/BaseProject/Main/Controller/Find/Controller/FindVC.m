@@ -7,7 +7,7 @@
 //
 
 #import "FindVC.h"
-
+#import "ReadBookVC.h"
 @interface FindVC ()
 
 @end
@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+}
+- (IBAction)readBtnClick:(id)sender {
+    ReadBookVC *bookVC = [ReadBookVC new];
+    bookVC.textContent = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"aizaixianjingderizi" ofType:@"txt" ]encoding:NSUTF8StringEncoding error:nil];
+    bookVC.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:bookVC animated:YES];
 }
 
 /*
