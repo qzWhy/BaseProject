@@ -31,6 +31,7 @@
 		1BFF6D6422ED66D0004AACCE /* TopChannelContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF6D6322ED66D0004AACCE /* TopChannelContainerView.m */; };
 		1BFF6D6722EDB8D5004AACCE /* ContentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF6D6622EDB8D5004AACCE /* ContentTableViewController.m */; };
 		1BFF6D6922EDDC32004AACCE /* NewsURLs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BFF6D6822EDDC32004AACCE /* NewsURLs.plist */; };
+		A140F26722EE924300395F19 /* QZCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A140F26522EE924300395F19 /* QZCycleScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,8 @@
 		1BFF6D6522EDB8D5004AACCE /* ContentTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentTableViewController.h; sourceTree = "<group>"; };
 		1BFF6D6622EDB8D5004AACCE /* ContentTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentTableViewController.m; sourceTree = "<group>"; };
 		1BFF6D6822EDDC32004AACCE /* NewsURLs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NewsURLs.plist; sourceTree = "<group>"; };
+		A140F26522EE924300395F19 /* QZCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZCycleScrollView.m; sourceTree = "<group>"; };
+		A140F26622EE924300395F19 /* QZCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZCycleScrollView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,7 @@
 		1BFF6D0C22ED2521004AACCE /* Utile */ = {
 			isa = PBXGroup;
 			children = (
+				A140F26422EE921500395F19 /* Class */,
 				1BFF6D5722ED3B5B004AACCE /* 3rdLib */,
 				1BFF6D1622ED2915004AACCE /* PrivateLib */,
 			);
@@ -355,6 +359,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		A140F26422EE921500395F19 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				A140F26622EE924300395F19 /* QZCycleScrollView.h */,
+				A140F26522EE924300395F19 /* QZCycleScrollView.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -441,6 +454,7 @@
 				1BFF6D0322ED2365004AACCE /* main.m in Sources */,
 				1BFF6D6722EDB8D5004AACCE /* ContentTableViewController.m in Sources */,
 				1BFF6D6422ED66D0004AACCE /* TopChannelContainerView.m in Sources */,
+				A140F26722EE924300395F19 /* QZCycleScrollView.m in Sources */,
 				1BFF6D5D22ED3F26004AACCE /* Pri_Tool.m in Sources */,
 				1BFF6D4122ED327B004AACCE /* MineVC.m in Sources */,
 				1BFF6D3222ED323D004AACCE /* IndexPageVC.m in Sources */,

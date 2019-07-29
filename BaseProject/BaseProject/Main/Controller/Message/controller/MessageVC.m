@@ -7,26 +7,32 @@
 //
 
 #import "MessageVC.h"
-
-@interface MessageVC ()
-
+#import "QZCycleScrollView.h"
+@interface MessageVC ()<QZCycleScrollViewDelegate>
+@property (nonatomic, strong) QZCycleScrollView *cycleScrollView;
 @end
 
 @implementation MessageVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    QZCycleScrollView *carousel = [[QZCycleScrollView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 300)];
+    carousel.delegate = self;
+    //    carousel.scrollDorectionPortrait = YES;
+    carousel.images = @[
+                        [UIImage imageNamed:@"0"],
+                        [UIImage imageNamed:@"1"],
+                        [UIImage imageNamed:@"2"],
+                        [UIImage imageNamed:@"3"],
+                        [UIImage imageNamed:@"4"]
+                        ];
+    carousel.currentPageColor = [UIColor orangeColor];
+    carousel.pageColor = [UIColor grayColor];
+    [self.view addSubview:carousel];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)carouselView:(QZCycleScrollView *)carouselView indexOfClickedImageBtn:(NSUInteger )index {
+    NSLog(@"点击了第%ld张图片",index);
 }
-*/
 
 @end
