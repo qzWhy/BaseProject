@@ -43,7 +43,7 @@ static CGFloat buttonWidth = 65;
         [button setTitle:channelArray[i] forState:UIControlStateNormal];
         [self.scrollView addSubview:button];
     }
-    [self clickChannelButton:self.scrollView.subviews[3]];
+    [self clickChannelButton:self.scrollView.subviews[2]];
 }
 
 - (UIButton *)createChannelButton {

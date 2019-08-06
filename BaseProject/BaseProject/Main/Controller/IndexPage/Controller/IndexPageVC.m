@@ -32,9 +32,9 @@ static CGFloat ChannelHeight  = 40;
 }
 
 - (void)setupSubViews {
+    [self setupChildController];
     [self.view addSubview:self.contentScrollView];
     [self.view addSubview:self.topContainerView];
-    [self setupChildController];
     [self scrollViewDidEndScrollingAnimation:self.contentScrollView];
     
 }
@@ -57,7 +57,22 @@ static CGFloat ChannelHeight  = 40;
         ContentTableViewController *vc = self.childViewControllers[index];
         vc.view.frame = CGRectMake(scrollView.contentOffset.x, 0, self.contentScrollView.frame.size.width, self.contentScrollView.frame.size.height);
         [scrollView addSubview:vc.view];
+        
+        for (int i = 0; i < self.contentScrollView.subviews.count; i++) {
+            NSInteger currentIndex = vc.view.frame.origin.x/self.contentScrollView.frame.size.width;
+            if ([self.contentScrollView.subviews[i] isKindOfClass:[UIView class]]) {
+                UIView *view = self.contentScrollView.subviews[i];
+                NSInteger theIndex = view.frame.origin.x/self.contentScrollView.frame.size.width;
+                NSInteger gap = theIndex - currentIndex;
+                if (gap<=2&&gap>=-2) {
+                    continue;
+                } else {
+                    [view removeFromSuperview];
+                }
+            }
+        }
     }
+    
 }
 
 #pragma mark --UIScrollViewDelegate-- 滑动的减速动画结束后会调用这个方法
@@ -71,7 +86,7 @@ static CGFloat ChannelHeight  = 40;
 
 #pragma mark - TopChannelContainterViewDelegate
 - (void)chooseChannelWithIndex:(NSInteger)index {
-    [self.contentScrollView setContentOffset:CGPointMake(self.contentScrollView.frame.size.width *index, 0) ];
+    [self.contentScrollView setContentOffset:CGPointMake(self.contentScrollView.frame.size.width * index, 0) animated:YES];
 }
 #pragma mark - 懒加载
 - (UIScrollView *)contentScrollView {
