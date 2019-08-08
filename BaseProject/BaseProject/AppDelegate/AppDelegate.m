@@ -16,7 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [UINavigationBar configNavigationBar];
+//    [UINavigationBar configNavigationBar];
     
     [Pri_Tool launchApp:YES];
     
